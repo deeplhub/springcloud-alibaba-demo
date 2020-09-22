@@ -1,0 +1,134 @@
+2020-09-22 06:34:28,872 INFO notifyConnectTimeout:200
+
+2020-09-22 06:34:28,960 INFO notifySocketTimeout:8000
+
+2020-09-22 06:34:28,960 INFO isHealthCheck:true
+
+2020-09-22 06:34:28,961 INFO maxHealthCheckFailCount:12
+
+2020-09-22 06:34:28,961 INFO maxContent:10485760
+
+2020-09-22 06:42:14,987 INFO notifyConnectTimeout:200
+
+2020-09-22 06:42:14,994 INFO notifySocketTimeout:8000
+
+2020-09-22 06:42:14,994 INFO isHealthCheck:true
+
+2020-09-22 06:42:14,994 INFO maxHealthCheckFailCount:12
+
+2020-09-22 06:42:14,995 INFO maxContent:10485760
+
+2020-09-22 06:45:13,101 INFO notifyConnectTimeout:200
+
+2020-09-22 06:45:13,109 INFO notifySocketTimeout:8000
+
+2020-09-22 06:45:13,110 INFO isHealthCheck:true
+
+2020-09-22 06:45:13,110 INFO maxHealthCheckFailCount:12
+
+2020-09-22 06:45:13,110 INFO maxContent:10485760
+
+2020-09-22 06:45:23,439 INFO use local db service for init
+
+2020-09-22 06:45:32,517 WARN Lexical error at line 4, column 66.  Encountered: <EOF> after : "".
+
+2020-09-22 06:45:32,583 WARN Syntax error: Encountered "*" at line 1, column 1.
+
+2020-09-22 06:45:38,214 INFO use StandaloneDatabaseOperateImpl
+
+2020-09-22 06:45:41,175 WARN DumpService start
+
+2020-09-22 06:45:41,177 INFO start clear all config-info.
+
+2020-09-22 06:45:41,192 WARN clear all config-info failed.
+
+2020-09-22 06:45:41,192 WARN clear all config-info-tenant failed.
+
+2020-09-22 06:45:41,318 INFO start clear all config-info-beta.
+
+2020-09-22 06:45:41,318 WARN clear all config-info-beta failed.
+
+2020-09-22 06:45:41,318 WARN clear all config-info-beta-tenant failed.
+
+2020-09-22 06:45:41,349 INFO start clear all config-info-tag.
+
+2020-09-22 06:45:41,349 WARN clear all config-info-tag failed.
+
+2020-09-22 06:45:41,352 WARN clear all config-info-tag-tenant failed.
+
+2020-09-22 21:25:26,256 INFO notifyConnectTimeout:200
+
+2020-09-22 21:25:26,264 INFO notifySocketTimeout:8000
+
+2020-09-22 21:25:26,264 INFO isHealthCheck:true
+
+2020-09-22 21:25:26,265 INFO maxHealthCheckFailCount:12
+
+2020-09-22 21:25:26,265 INFO maxContent:10485760
+
+2020-09-22 21:25:38,510 INFO use local db service for init
+
+2020-09-22 21:25:43,235 WARN Lexical error at line 4, column 66.  Encountered: <EOF> after : "".
+
+2020-09-22 21:25:43,297 WARN Syntax error: Encountered "*" at line 1, column 1.
+
+2020-09-22 21:25:43,478 WARN Table/View 'CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2020-09-22 21:25:43,849 WARN Table/View 'HIS_CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2020-09-22 21:25:43,999 WARN Table/View 'CONFIG_INFO_BETA' already exists in Schema 'NACOS'.
+
+2020-09-22 21:25:44,168 WARN Table/View 'CONFIG_INFO_TAG' already exists in Schema 'NACOS'.
+
+2020-09-22 21:25:44,276 WARN Table/View 'CONFIG_INFO_AGGR' already exists in Schema 'NACOS'.
+
+2020-09-22 21:25:44,380 WARN Table/View 'APP_LIST' already exists in Schema 'NACOS'.
+
+2020-09-22 21:25:44,483 WARN Table/View 'APP_CONFIGDATA_RELATION_SUBS' already exists in Schema 'NACOS'.
+
+2020-09-22 21:25:44,584 WARN Table/View 'APP_CONFIGDATA_RELATION_PUBS' already exists in Schema 'NACOS'.
+
+2020-09-22 21:25:44,690 WARN Table/View 'CONFIG_TAGS_RELATION' already exists in Schema 'NACOS'.
+
+2020-09-22 21:25:44,843 WARN Table/View 'GROUP_CAPACITY' already exists in Schema 'NACOS'.
+
+2020-09-22 21:25:44,987 WARN Table/View 'TENANT_CAPACITY' already exists in Schema 'NACOS'.
+
+2020-09-22 21:25:45,132 WARN Table/View 'TENANT_INFO' already exists in Schema 'NACOS'.
+
+2020-09-22 21:25:45,267 WARN Table/View 'USERS' already exists in Schema 'NACOS'.
+
+2020-09-22 21:25:45,398 WARN Table/View 'ROLES' already exists in Schema 'NACOS'.
+
+2020-09-22 21:25:45,543 WARN Table/View 'PERMISSIONS' already exists in Schema 'NACOS'.
+
+2020-09-22 21:25:45,669 WARN The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'SQL200922064537300' defined on 'USERS'.
+
+2020-09-22 21:25:45,681 WARN The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'UK_USERNAME_ROLE' defined on 'ROLES'.
+
+2020-09-22 21:25:45,681 INFO use StandaloneDatabaseOperateImpl
+
+2020-09-22 21:25:48,656 WARN DumpService start
+
+2020-09-22 21:25:48,658 INFO start clear all config-info.
+
+2020-09-22 21:25:48,670 WARN clear all config-info failed.
+
+2020-09-22 21:25:48,670 WARN clear all config-info-tenant failed.
+
+2020-09-22 21:25:48,916 INFO [all-dump] 282277184752586752 / 282277184752586752
+
+2020-09-22 21:25:48,916 INFO start clear all config-info-beta.
+
+2020-09-22 21:25:48,916 WARN clear all config-info-beta failed.
+
+2020-09-22 21:25:48,916 WARN clear all config-info-beta-tenant failed.
+
+2020-09-22 21:25:48,933 INFO start clear all config-info-tag.
+
+2020-09-22 21:25:48,933 WARN clear all config-info-tag failed.
+
+2020-09-22 21:25:48,934 WARN clear all config-info-tag-tenant failed.
+
+2020-09-22 21:45:43,110 ERROR long polling error:The request associated with the AsyncContext has already completed processing.
+

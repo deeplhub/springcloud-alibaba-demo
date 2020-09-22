@@ -1,0 +1,104 @@
+2020-09-22 06:45:40,835 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2020-09-22 06:45:40,837 INFO listen for service meta change
+
+2020-09-22 07:03:30,993 INFO creating empty service public:DEFAULT_GROUP@@springcloud-alibaba-nacos-client
+
+2020-09-22 07:03:31,053 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@springcloud-alibaba-nacos-client","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1600729410999,"checksum":"3dc3d1ac5a9cf3209d5dc83729d0173c","clusterMap":{},"empty":true}
+
+2020-09-22 07:03:31,064 WARN cluster: DEFAULT not found, ip: {"instanceId":"192.168.1.2#8010#DEFAULT#DEFAULT_GROUP@@springcloud-alibaba-nacos-client","ip":"192.168.1.2","port":8010,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@springcloud-alibaba-nacos-client","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1600729410985,"marked":false,"app":"DEFAULT","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2020-09-22 07:03:31,077 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@springcloud-alibaba-nacos-client, value: {"instanceList":[{"instanceId":"192.168.1.2#8010#DEFAULT#DEFAULT_GROUP@@springcloud-alibaba-nacos-client","ip":"192.168.1.2","port":8010,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@springcloud-alibaba-nacos-client","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1600729410985,"marked":false,"app":"DEFAULT","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2020-09-22 21:25:48,445 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2020-09-22 21:25:48,447 INFO listen for service meta change
+
+2020-09-22 21:34:23,780 INFO creating empty service public:DEFAULT_GROUP@@springcloud-alibaba-nacos-client
+
+2020-09-22 21:34:23,837 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@springcloud-alibaba-nacos-client","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1600781663786,"checksum":"3dc3d1ac5a9cf3209d5dc83729d0173c","clusterMap":{},"empty":true}
+
+2020-09-22 21:34:23,844 WARN cluster: DEFAULT not found, ip: {"instanceId":"192.168.1.2#8010#DEFAULT#DEFAULT_GROUP@@springcloud-alibaba-nacos-client","ip":"192.168.1.2","port":8010,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@springcloud-alibaba-nacos-client","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1600781663771,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2020-09-22 21:34:23,858 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@springcloud-alibaba-nacos-client, value: {"instanceList":[{"instanceId":"192.168.1.2#8010#DEFAULT#DEFAULT_GROUP@@springcloud-alibaba-nacos-client","ip":"192.168.1.2","port":8010,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@springcloud-alibaba-nacos-client","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1600781663771,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2020-09-22 21:45:39,210 WARN Exception while processing client beat time out.
+
+java.lang.IllegalStateException: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@11531931 has been closed already
+	at org.springframework.context.support.AbstractApplicationContext.assertBeanFactoryActive(AbstractApplicationContext.java:1067)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1100)
+	at com.alibaba.nacos.core.utils.ApplicationUtils.getBean(ApplicationUtils.java:192)
+	at com.alibaba.nacos.naming.healthcheck.ClientBeatCheckTask.getDistroMapper(ClientBeatCheckTask.java:60)
+	at com.alibaba.nacos.naming.healthcheck.ClientBeatCheckTask.run(ClientBeatCheckTask.java:78)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-09-22 21:45:43,935 ERROR [HEALTH-CHECK] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.processTask(TcpSuperSenseProcessor.java:137)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.run(TcpSuperSenseProcessor.java:154)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-09-22 21:45:44,212 WARN Exception while processing client beat time out.
+
+java.lang.IllegalStateException: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@11531931 has been closed already
+	at org.springframework.context.support.AbstractApplicationContext.assertBeanFactoryActive(AbstractApplicationContext.java:1067)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1100)
+	at com.alibaba.nacos.core.utils.ApplicationUtils.getBean(ApplicationUtils.java:192)
+	at com.alibaba.nacos.naming.healthcheck.ClientBeatCheckTask.getDistroMapper(ClientBeatCheckTask.java:60)
+	at com.alibaba.nacos.naming.healthcheck.ClientBeatCheckTask.run(ClientBeatCheckTask.java:78)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-09-22 21:45:49,213 WARN Exception while processing client beat time out.
+
+java.lang.IllegalStateException: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@11531931 has been closed already
+	at org.springframework.context.support.AbstractApplicationContext.assertBeanFactoryActive(AbstractApplicationContext.java:1067)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1100)
+	at com.alibaba.nacos.core.utils.ApplicationUtils.getBean(ApplicationUtils.java:192)
+	at com.alibaba.nacos.naming.healthcheck.ClientBeatCheckTask.getDistroMapper(ClientBeatCheckTask.java:60)
+	at com.alibaba.nacos.naming.healthcheck.ClientBeatCheckTask.run(ClientBeatCheckTask.java:78)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-09-22 23:11:43,595 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2020-09-22 23:11:43,597 INFO listen for service meta change
+
+2020-09-22 23:12:37,662 INFO creating empty service public:DEFAULT_GROUP@@springcloud-alibaba-nacos-client
+
+2020-09-22 23:12:37,716 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@springcloud-alibaba-nacos-client","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1600787557665,"checksum":"3dc3d1ac5a9cf3209d5dc83729d0173c","clusterMap":{},"empty":true}
+
+2020-09-22 23:12:37,725 WARN cluster: DEFAULT not found, ip: {"instanceId":"192.168.1.2#8010#DEFAULT#DEFAULT_GROUP@@springcloud-alibaba-nacos-client","ip":"192.168.1.2","port":8010,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@springcloud-alibaba-nacos-client","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1600787557656,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2020-09-22 23:12:37,736 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@springcloud-alibaba-nacos-client, value: {"instanceList":[{"instanceId":"192.168.1.2#8010#DEFAULT#DEFAULT_GROUP@@springcloud-alibaba-nacos-client","ip":"192.168.1.2","port":8010,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@springcloud-alibaba-nacos-client","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1600787557656,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2020-09-22 23:18:43,311 INFO creating empty service public:DEFAULT_GROUP@@springcloud-alibaba-gateway
+
+2020-09-22 23:18:43,312 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@springcloud-alibaba-gateway","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1600787923311,"checksum":"253bb4569f1e5a619a912ea8e8b2dd2e","clusterMap":{},"empty":true}
+
+2020-09-22 23:18:43,312 WARN cluster: DEFAULT not found, ip: {"instanceId":"192.168.1.2#8020#DEFAULT#DEFAULT_GROUP@@springcloud-alibaba-gateway","ip":"192.168.1.2","port":8020,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@springcloud-alibaba-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1600787923311,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2020-09-22 23:18:43,312 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@springcloud-alibaba-gateway, value: {"instanceList":[{"instanceId":"192.168.1.2#8020#DEFAULT#DEFAULT_GROUP@@springcloud-alibaba-gateway","ip":"192.168.1.2","port":8020,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@springcloud-alibaba-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1600787923311,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+

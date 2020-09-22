@@ -5,7 +5,7 @@ import org.springframework.cloud.client.ServiceInstance;
 import java.util.List;
 
 /**
- * Title: 负载均衡器算法
+ * Title: 手写负载均衡器算法
  * Description:
  *
  * @author H.Yang

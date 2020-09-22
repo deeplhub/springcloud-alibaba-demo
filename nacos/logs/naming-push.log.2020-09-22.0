@@ -1,0 +1,20 @@
+2020-09-22 07:03:32,084 INFO DEFAULT_GROUP@@springcloud-alibaba-nacos-client is changed, add it to push queue.
+
+2020-09-22 21:34:24,867 INFO DEFAULT_GROUP@@springcloud-alibaba-nacos-client is changed, add it to push queue.
+
+2020-09-22 21:34:24,895 INFO serviceName: DEFAULT_GROUP@@springcloud-alibaba-nacos-client changed, schedule push for: 192.168.182.1:51924, agent: Nacos-Java-Client:v1.3.3, key: 192.168.182.1,51924,173343020652329
+
+2020-09-22 21:34:24,895 INFO send udp packet: 192.168.182.1,51924,173343020652329
+
+2020-09-22 21:34:24,933 INFO received ack: {"type": "push-ack", "lastRefTime":"173343020652329", "data":""} from: 192.168.182.1:51924, cost: 38 ms, unacked: 0, total push: 1
+
+2020-09-22 23:12:38,745 INFO DEFAULT_GROUP@@springcloud-alibaba-nacos-client is changed, add it to push queue.
+
+2020-09-22 23:18:44,314 INFO DEFAULT_GROUP@@springcloud-alibaba-gateway is changed, add it to push queue.
+
+2020-09-22 23:18:44,335 INFO serviceName: DEFAULT_GROUP@@springcloud-alibaba-gateway changed, schedule push for: 192.168.182.1:50085, agent: Nacos-Java-Client:v1.2.1, key: 192.168.182.1,50085,179602090757872
+
+2020-09-22 23:18:44,336 INFO send udp packet: 192.168.182.1,50085,179602090757872
+
+2020-09-22 23:18:44,347 INFO received ack: {"type": "push-ack", "lastRefTime":"179602090757872", "data":""} from: 192.168.182.1:50085, cost: 11 ms, unacked: 0, total push: 1
+

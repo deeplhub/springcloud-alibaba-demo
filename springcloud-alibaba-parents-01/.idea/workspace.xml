@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec498758-b0d6-4621-bdda-373e9bbf8df2" name="Default Changelist" comment="" />
+    <list default="true" id="ec498758-b0d6-4621-bdda-373e9bbf8df2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../springcloud-alibaba-config-04/src/main/java/com/xh/springcloud/alibaba/config/service/NacosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-alibaba-config-04/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-alibaba-config-04/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-alibaba-parents-02/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-alibaba-parents-03/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-order/src/main/java/com/xh/springcloud/alibaba/order/loadbalancer/LoadBalancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-order/src/main/java/com/xh/springcloud/alibaba/order/loadbalancer/LoadBalancer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-alibaba-parents-02/springcloud-order/src/main/java/com/xh/springcloud/alibaba/order/loadbalancer/LoadBalancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-alibaba-parents-02/springcloud-order/src/main/java/com/xh/springcloud/alibaba/order/loadbalancer/LoadBalancer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-alibaba-parents-02/springcloud-order/src/main/java/com/xh/springcloud/alibaba/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-alibaba-parents-02/springcloud-order/src/main/java/com/xh/springcloud/alibaba/order/service/OrderService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +33,9 @@
     </option>
     <expand />
     <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -223,6 +236,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598912136727</updated>
       <workItem from="1598912140905" duration="629000" />
+      <workItem from="1599431118181" duration="1153000" />
     </task>
     <servers />
   </component>

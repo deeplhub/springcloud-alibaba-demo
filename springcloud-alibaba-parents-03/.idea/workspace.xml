@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="697143bf-b034-4511-9a31-386163eb6321" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../springcloud-alibaba-config-04/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-alibaba-config-04/src/main/java/com/xh/springcloud/alibaba/config/service/NacosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-alibaba-config-04/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-alibaba-parents-01/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-alibaba-parents-02/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-alibaba-parents-01/springcloud-order/src/main/java/com/xh/springcloud/alibaba/order/loadbalancer/LoadBalancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-alibaba-parents-01/springcloud-order/src/main/java/com/xh/springcloud/alibaba/order/loadbalancer/LoadBalancer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-alibaba-parents-02/springcloud-order/src/main/java/com/xh/springcloud/alibaba/order/loadbalancer/LoadBalancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-alibaba-parents-02/springcloud-order/src/main/java/com/xh/springcloud/alibaba/order/loadbalancer/LoadBalancer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-alibaba-parents-02/springcloud-order/src/main/java/com/xh/springcloud/alibaba/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-alibaba-parents-02/springcloud-order/src/main/java/com/xh/springcloud/alibaba/order/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-alibaba-service-impl/springcloud-alibaba-service-impl-order/src/main/java/com/xh/springcloud/alibaba/service/AppOrderSpringBoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-alibaba-service-impl/springcloud-alibaba-service-impl-order/src/main/java/com/xh/springcloud/alibaba/service/AppOrderSpringBoot.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="mavenHome" value="D:/Apache/Maven/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\Apache\Maven\apache-maven-3.6.0\conf\practice\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectId" id="1gvdKDr8NOBImHZG2S89mYEIDQ7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/springcloud-alibaba-service-impl/springcloud-alibaba-service-impl-order/src/main/java/com/xh/springcloud/alibaba/service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.44649023" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JetBrains\Workspace\JavaWorkspace\practice\springcloud-alibaba\springcloud-alibaba-parents-03\springcloud-alibaba-service-impl\springcloud-alibaba-service-impl-order\src\main\resources" />
+      <recent name="D:\JetBrains\Workspace\JavaWorkspace\practice\springcloud-alibaba\springcloud-alibaba-parents-03\springcloud-alibaba-service-impl\springcloud-alibaba-service-impl-member\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AppOrderSpringBoot">
+    <configuration name="AppMemberSpringBoot" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-alibaba-service-impl-member" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xh.springcloud.alibaba.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xh.springcloud.alibaba.service.AppMemberSpringBoot" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppOrderSpringBoot" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-alibaba-service-impl-order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xh.springcloud.alibaba.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xh.springcloud.alibaba.service.AppOrderSpringBoot" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.AppMemberSpringBoot" />
+      <item itemvalue="Spring Boot.AppOrderSpringBoot" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AppOrderSpringBoot" />
+        <item itemvalue="Spring Boot.AppMemberSpringBoot" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="697143bf-b034-4511-9a31-386163eb6321" name="Default Changelist" comment="" />
+      <created>1598998933653</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598998933653</updated>
+      <workItem from="1598998934894" duration="8145000" />
+      <workItem from="1599431709191" duration="1225000" />
+      <workItem from="1600435173282" duration="947000" />
+      <workItem from="1600726645434" duration="1121000" />
+    </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1599087417854</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599087417854</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="21" key="#Project_Structure" timestamp="1599086771593">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="21" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1599086771593" />
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599086972732">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1599086972732" />
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1599001852309">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1599001852309" />
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1599087414251">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599087414251" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1599001277377">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599001277377" />
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1600437830218">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600437830218" />
+    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1600437830218">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600437830218" />
+    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1600437830217">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600437830217" />
+    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1600437830218">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600437830218" />
+    <state width="1322" height="174" key="GridCell.Tab.1.bottom" timestamp="1600437830219">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="174" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600437830219" />
+    <state width="1322" height="174" key="GridCell.Tab.1.center" timestamp="1600437830219">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="174" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1600437830219" />
+    <state width="1322" height="174" key="GridCell.Tab.1.left" timestamp="1600437830219">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="174" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1600437830219" />
+    <state width="1322" height="174" key="GridCell.Tab.1.right" timestamp="1600437830219">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="174" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1600437830219" />
+    <state width="1322" height="216" key="GridCell.Tab.2.bottom" timestamp="1599087396699">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="216" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599087396699" />
+    <state width="1322" height="216" key="GridCell.Tab.2.center" timestamp="1599087396698">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="216" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1599087396698" />
+    <state width="1322" height="216" key="GridCell.Tab.2.left" timestamp="1599087396698">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="216" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1599087396698" />
+    <state width="1322" height="216" key="GridCell.Tab.2.right" timestamp="1599087396699">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="216" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1599087396699" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1598999154018">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598999154018" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1599087501840">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599087501840" />
+    <state x="482" y="140" key="chooseDestDirectoryDialog" timestamp="1599085546234">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="482" y="140" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1599085546234" />
+    <state x="316" y="57" key="new project wizard" timestamp="1599432082894">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="316" y="57" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1599432082894" />
+  </component>
+</project>

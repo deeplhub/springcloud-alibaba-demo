@@ -1,0 +1,30 @@
+server:
+  port: 8020
+spring:
+  application:
+    ###服务的名称
+    name: springcloud-alibaba-gateway
+  cloud:
+    nacos:
+      username: nacos
+      password: admini
+      discovery:
+        ###nacos注册地址
+        server-addr: 127.0.0.1:8848
+        enabled: true
+    gateway:
+      ###路由策略
+      routes:
+        ###根据我们的服务名称查找地址实现调用
+        - id: member
+          ####转发http://www.mayikt.com/
+          uri: lb://springcloud-alibaba-nacos-client/
+          filters:
+            - StripPrefix=1
+          ###匹配规则
+          predicates:
+            - Path=/nacos-client/**
+      discovery:
+        locator:
+          ###允许通过注册中心获取地址调用
+          enabled: true

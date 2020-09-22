@@ -1,0 +1,18 @@
+2020-09-22 07:03:31,080 INFO DEFAULT_GROUP@@springcloud-alibaba-nacos-client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.2:8010:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-22 07:03:31,084 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@springcloud-alibaba-nacos-client, ips: 192.168.1.2:8010_true,
+
+2020-09-22 21:34:23,860 INFO DEFAULT_GROUP@@springcloud-alibaba-nacos-client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.2:8010:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-22 21:34:23,865 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@springcloud-alibaba-nacos-client, ips: 192.168.1.2:8010_true,
+
+2020-09-22 21:45:57,240 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2020-09-22 23:12:37,739 INFO DEFAULT_GROUP@@springcloud-alibaba-nacos-client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.2:8010:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-22 23:12:37,744 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@springcloud-alibaba-nacos-client, ips: 192.168.1.2:8010_true,
+
+2020-09-22 23:18:43,313 INFO DEFAULT_GROUP@@springcloud-alibaba-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.2:8020:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-22 23:18:43,313 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@springcloud-alibaba-gateway, ips: 192.168.1.2:8020_true,
+

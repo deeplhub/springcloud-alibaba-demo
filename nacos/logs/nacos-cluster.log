@@ -1,0 +1,24 @@
+2020-09-22 06:42:27,196 INFO Current addressing mode selection : AddressServerMemberLookup
+
+2020-09-22 06:42:27,302 ERROR [serverlist] exception, error : caused: 杩欐槸鍦ㄤ富鏈哄悕瑙ｆ瀽鏃堕�氬父鍑虹幇鐨勬殏鏃堕敊璇紝瀹冩剰鍛崇潃鏈湴鏈嶅姟鍣ㄦ病鏈変粠鏉冨▉鏈嶅姟鍣ㄤ笂鏀跺埌鍝嶅簲銆� (jmenv.tbsite.net);
+
+2020-09-22 06:42:27,303 ERROR [serverlist] exception, error : caused: jmenv.tbsite.net;
+
+2020-09-22 06:42:27,304 ERROR [serverlist] exception, error : caused: jmenv.tbsite.net;
+
+2020-09-22 06:42:27,305 ERROR [serverlist] exception, error : caused: jmenv.tbsite.net;
+
+2020-09-22 06:42:27,306 ERROR [serverlist] exception, error : caused: jmenv.tbsite.net;
+
+2020-09-22 06:45:39,218 INFO Current addressing mode selection : StandaloneMemberLookup
+
+2020-09-22 06:45:39,246 WARN [serverlist] updated to : [Member{ip='192.168.1.2', port=8848, state=UP, extendInfo={adWeight=0, raftPort=7848, site=unknow, weight=1}}]
+
+2020-09-22 06:45:45,626 INFO This node is ready to provide external services
+
+2020-09-22 21:25:47,046 INFO Current addressing mode selection : StandaloneMemberLookup
+
+2020-09-22 21:25:47,056 WARN [serverlist] updated to : [Member{ip='192.168.1.2', port=8848, state=UP, extendInfo={adWeight=0, raftPort=7848, site=unknow, weight=1}}]
+
+2020-09-22 21:25:53,017 INFO This node is ready to provide external services
+

@@ -4,6 +4,7 @@ import com.xh.springcloud.alibaba.order.loadbalancer.LoadBalancer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
+import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
@@ -29,8 +30,8 @@ public class OrderService {
     @Autowired
     private LoadBalancer loadBalancer;
 
-//    @Autowired
-//    private LoadBalancerClient loadBalancerClient;
+    @Autowired
+    private LoadBalancerClient loadBalancerClient;
 
     /**
      * 订单服务调用到我们的会员服务接口
@@ -67,10 +68,10 @@ public class OrderService {
      *
      * @return
      */
-//    @RequestMapping("/loadBalancerClientMember")
-//    public Object loadBalancerClientMember() {
-//        ServiceInstance result = loadBalancerClient.choose("springcloud-alibaba-member");
-//        return result;
-//    }
+    @RequestMapping("/loadBalancerClientMember")
+    public Object loadBalancerClientMember() {
+        ServiceInstance result = loadBalancerClient.choose("springcloud-alibaba-member");
+        return result;
+    }
 
 }

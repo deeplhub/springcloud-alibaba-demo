@@ -1,16 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="697143bf-b034-4511-9a31-386163eb6321" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../springcloud-alibaba-config-04/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-alibaba-config-04/src/main/java/com/xh/springcloud/alibaba/config/service/NacosController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-alibaba-config-04/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-alibaba-parents-01/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-alibaba-parents-02/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-alibaba-parents-01/springcloud-order/src/main/java/com/xh/springcloud/alibaba/order/loadbalancer/LoadBalancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-alibaba-parents-01/springcloud-order/src/main/java/com/xh/springcloud/alibaba/order/loadbalancer/LoadBalancer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-alibaba-parents-02/springcloud-order/src/main/java/com/xh/springcloud/alibaba/order/loadbalancer/LoadBalancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-alibaba-parents-02/springcloud-order/src/main/java/com/xh/springcloud/alibaba/order/loadbalancer/LoadBalancer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-alibaba-parents-02/springcloud-order/src/main/java/com/xh/springcloud/alibaba/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-alibaba-parents-02/springcloud-order/src/main/java/com/xh/springcloud/alibaba/order/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-alibaba-config-04/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-alibaba-gateway-05/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-alibaba-gateway-05/.idea/springcloud-alibaba-gateway-05.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-alibaba-sentinel-06/.idea/springcloud-alibaba-sentinel-06.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-alibaba-sentinel-06/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-alibaba-sentinel-06/springcloud-alibaba-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-alibaba-sentinel-06/springcloud-alibaba-sentinel-06.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-alibaba-sentinel-06/springcloud-alibaba-service-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-alibaba-sentinel-06/springcloud-alibaba-service-api/src/main/java/com/xh/springcloud/alibaba/api/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-alibaba-sentinel-06/springcloud-alibaba-service-impl/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-alibaba-sentinel-06/springcloud-alibaba-service-impl/springcloud-alibaba-impl-member/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-alibaba-sentinel-06/springcloud-alibaba-service-impl/springcloud-alibaba-impl-member/src/main/java/com/xh/springcloud/alibaba/AppMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-alibaba-sentinel-06/springcloud-alibaba-service-impl/springcloud-alibaba-impl-member/src/main/java/com/xh/springcloud/alibaba/impl/MemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-alibaba-sentinel-06/springcloud-alibaba-service-impl/springcloud-alibaba-impl-member/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-alibaba-sentinel-06/springcloud-alibaba-service-impl/springcloud-alibaba-impl-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-alibaba-sentinel-06/springcloud-alibaba-service-impl/springcloud-alibaba-impl-order/src/main/java/com/xh/springcloud/alibaba/AppOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-alibaba-sentinel-06/springcloud-alibaba-service-impl/springcloud-alibaba-impl-order/src/main/java/com/xh/springcloud/alibaba/feign/MemberServiceFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-alibaba-sentinel-06/springcloud-alibaba-service-impl/springcloud-alibaba-impl-order/src/main/java/com/xh/springcloud/alibaba/impl/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-alibaba-sentinel-06/springcloud-alibaba-service-impl/springcloud-alibaba-impl-order/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/bin/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/bin/derby.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/bin/logs/access_log.2020-09-23.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/bin/logs/access_log.2020-09-23.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/db.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/log/log.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/log/log1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/log/logmirror.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c60.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c60.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c740.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c740.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c760.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c760.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c81.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c81.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/naming/meta.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/naming/meta.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/config-client-request.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/config-client-request.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/config-dump.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/config-dump.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/config-fatal.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/config-fatal.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/config-memory.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/config-memory.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/config-pull-check.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/config-pull-check.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/config-server.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/config-server.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/config-trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/config-trace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/nacos-cluster.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/nacos-cluster.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/nacos.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/nacos.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-distro.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/naming-distro.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-event.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/naming-event.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-performance.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/naming-performance.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-push.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/naming-push.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-raft.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/naming-raft.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-server.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/naming-server.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-alibaba-config-04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-alibaba-config-04/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-alibaba-gateway-05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-alibaba-gateway-05/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-alibaba-service-impl/springcloud-alibaba-service-impl-order/src/main/java/com/xh/springcloud/alibaba/service/AppOrderSpringBoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-alibaba-service-impl/springcloud-alibaba-service-impl-order/src/main/java/com/xh/springcloud/alibaba/service/AppOrderSpringBoot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +78,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="alwaysUpdateSnapshots" value="true" />
-        <option name="mavenHome" value="D:/Apache/Maven/apache-maven-3.6.0" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../Apache/Maven/apache-maven-3.6.0" />
         <option name="userSettingsFile" value="D:\Apache\Maven\apache-maven-3.6.0\conf\practice\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -162,50 +204,42 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1599086972732" />
-    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1599001852309">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1599001852309" />
     <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1599087414251">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599087414251" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1599001277377">
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1607680852890">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599001277377" />
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1600437830218">
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607680852890" />
+    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1607680852890">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600437830218" />
-    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1600437830218">
+    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607680852890" />
+    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1607680852890">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600437830218" />
-    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1600437830217">
+    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607680852890" />
+    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1607680852890">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600437830217" />
-    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1600437830218">
+    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607680852890" />
+    <state width="1322" height="174" key="GridCell.Tab.1.bottom" timestamp="1607680852890">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600437830218" />
-    <state width="1322" height="174" key="GridCell.Tab.1.bottom" timestamp="1600437830219">
+    <state width="1322" height="174" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607680852890" />
+    <state width="1322" height="174" key="GridCell.Tab.1.center" timestamp="1607680852890">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600437830219" />
-    <state width="1322" height="174" key="GridCell.Tab.1.center" timestamp="1600437830219">
+    <state width="1322" height="174" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1607680852890" />
+    <state width="1322" height="174" key="GridCell.Tab.1.left" timestamp="1607680852890">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1600437830219" />
-    <state width="1322" height="174" key="GridCell.Tab.1.left" timestamp="1600437830219">
+    <state width="1322" height="174" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1607680852890" />
+    <state width="1322" height="174" key="GridCell.Tab.1.right" timestamp="1607680852890">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1600437830219" />
-    <state width="1322" height="174" key="GridCell.Tab.1.right" timestamp="1600437830219">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="174" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1600437830219" />
+    <state width="1322" height="174" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1607680852890" />
     <state width="1322" height="216" key="GridCell.Tab.2.bottom" timestamp="1599087396699">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -222,10 +256,6 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="216" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1599087396699" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1598999154018">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598999154018" />
     <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1599087501840">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
